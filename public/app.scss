@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  display: inline-block;
+  width: 3.2cm;
+  height: 3.5cm;
+  // padding: 0.3cm;
+  // border: 1px dashed #333;
+  font-family: "FeniceStd-Oblique";
+  color: #fff;
+  font-weight: 600;
+
+  background: red;
+  background-size: cover;
+  background-position: center center;
+  // border: 1px solid #ccc;
+  box-shadow: 0 0 2cm rgba(0, 0, 0, 0.9) inset;
+
+  div.img {
+    height: 2cm;
+    margin-bottom: 0.2cm;
+  }
+
+  span {
+    text-shadow: 1px 1px 0px #000;
+    // background: yellow;
+    margin-top: 2cm;
+    height: 0.7cm;
+    display: block;
+    font-size: 19px;
+    line-height: 0.8cm;
+    letter-spacing: -0.5px;
+    text-align: center;
+    // border: 1px solid #ccc;
+  }
+}
